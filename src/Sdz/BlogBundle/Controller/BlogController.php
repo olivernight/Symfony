@@ -8,6 +8,6 @@ class BlogController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('SdzBlogBundle:Blog:index.html.twig');
+        return $this->render('SdzBlogBundle:Blog:index.html.twig', array("name"=> "Olivier"));
     }
 }
